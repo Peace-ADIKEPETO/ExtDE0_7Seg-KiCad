@@ -1,0 +1,694 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0a1419a8-d94b-473e-9651-705e77135dd4")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 99.06 96.52) (xy 116.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346ae088-bb95-45dd-acd3-294bf641a1d9")
+	)
+	(bus
+		(pts
+			(xy 185.42 95.25) (xy 214.63 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5544c91c-b79b-4261-b9e5-36e81f070f1f")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 116.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "676c9a1c-4f62-41b8-8679-e62057b4b83a")
+	)
+	(wire
+		(pts
+			(xy 99.06 80.01) (xy 116.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a6af593-d123-4fe5-a16f-817f622004e4")
+	)
+	(bus
+		(pts
+			(xy 185.42 83.82) (xy 214.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7044e8-4b38-465f-9074-f7125c394e3e")
+	)
+	(wire
+		(pts
+			(xy 99.06 90.17) (xy 116.84 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816d028a-209b-4915-b578-56154a324c1b")
+	)
+	(wire
+		(pts
+			(xy 185.42 50.8) (xy 215.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8638141c-6cb7-40a0-a761-43b1f2480d41")
+	)
+	(bus
+		(pts
+			(xy 93.98 38.1) (xy 116.84 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b7ea45-75ad-40a8-a23c-7ba4afa87b20")
+	)
+	(bus
+		(pts
+			(xy 185.42 43.18) (xy 215.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2a8d3a-c5cf-47c0-bc89-b7053979036a")
+	)
+	(bus
+		(pts
+			(xy 215.9 62.23) (xy 215.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2511e52-2c5d-4cfe-a806-c2ee252a7f6b")
+	)
+	(wire
+		(pts
+			(xy 99.06 85.09) (xy 116.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f85045b5-0301-4bc5-9db9-7e50d1d6f8fd")
+	)
+	(bus
+		(pts
+			(xy 185.42 62.23) (xy 215.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8dc7b81-215a-4653-94b8-238b2d8a466c")
+	)
+	(label "LedButton[3..0]"
+		(at 204.47 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45b5d915-44db-4581-90f2-fbe602d818c8")
+	)
+	(label "nJoyStickE"
+		(at 110.49 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82399a7d-d50d-4219-b1fe-235bd3c6cfd4")
+	)
+	(label "Reset_Led"
+		(at 201.93 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9044f608-628d-418c-9059-44214e139b33")
+	)
+	(label "Sw_Led[7..0]"
+		(at 106.68 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3778bdd-8fdd-4e81-8571-97ebbc48b1ce")
+	)
+	(label "nJoyStickC"
+		(at 110.49 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5a898f9-d31b-4969-b44e-783d2db17295")
+	)
+	(label "nSelDig[3..0]"
+		(at 199.39 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b407f3ca-f7fe-4aec-b1bb-e5b674b766aa")
+	)
+	(label "nJoyStickS"
+		(at 110.49 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b9079014-764e-422d-97a3-e3e5502082ca")
+	)
+	(label "nJoyStickW"
+		(at 110.49 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb704b9e-890f-4c1d-9bd6-90e97fc3c3a0")
+	)
+	(label "SelSeg[7..0]"
+		(at 200.66 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c19b4bc5-8ad5-4073-8bb6-e844509bcd2a")
+	)
+	(label "nButton[3..0]"
+		(at 201.93 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8d6e719-4b93-467a-bba5-7c72bac7269b")
+	)
+	(label "nJoyStickN"
+		(at 110.49 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd5c9176-0a86-46a6-bb16-c9b4876263c9")
+	)
+	(sheet
+		(at 54.61 27.94)
+		(size 39.37 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0eae2916-0662-44fd-aafb-fd58e19ec0cf")
+		(property "Sheetname" "Sheet2"
+			(at 54.61 27.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sheet2.kicad_sch"
+			(at 54.61 47.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Sw_Led[7..0]" bidirectional
+			(at 93.98 38.1 0)
+			(uuid "836bad83-c0ac-4453-8668-6198c916c48f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "7Seg_Ext"
+				(path "/0a1419a8-d94b-473e-9651-705e77135dd4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 69.85)
+		(size 46.99 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7c33f828-db3a-488a-a234-9a039483e52e")
+		(property "Sheetname" "Sheet4"
+			(at 52.07 69.1384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sheet4.kicad_sch"
+			(at 52.07 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "nJoyStickC" output
+			(at 99.06 80.01 0)
+			(uuid "54a74bd6-d038-43f3-869a-299d139b0761")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nJoyStickE" output
+			(at 99.06 85.09 0)
+			(uuid "faa2b3f3-f5e0-4dd5-a5ca-60d16c64e53d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nJoyStickN" output
+			(at 99.06 90.17 0)
+			(uuid "5e605305-10ef-407f-ad8c-a5410570c3b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nJoyStickS" output
+			(at 99.06 96.52 0)
+			(uuid "7d1aea2f-e0ff-4052-97d1-6a4d3ae0de74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nJoyStickW" output
+			(at 99.06 73.66 0)
+			(uuid "01e0d42f-d4ba-4579-a788-4ea3f4e12f77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "7Seg_Ext"
+				(path "/0a1419a8-d94b-473e-9651-705e77135dd4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 214.63 80.01)
+		(size 38.1 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9447f86a-f20c-4816-8235-4bdd659916ad")
+		(property "Sheetname" "Sheet 3"
+			(at 214.63 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sheet3.kicad_sch"
+			(at 214.63 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LedButton[3..0]" input
+			(at 214.63 95.25 180)
+			(uuid "5c0895fa-007d-417f-a797-dab0860f9735")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nButton[3..0]" output
+			(at 214.63 83.82 180)
+			(uuid "c657a635-4226-44fc-84f4-724ebc2041c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "7Seg_Ext"
+				(path "/0a1419a8-d94b-473e-9651-705e77135dd4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 35.56)
+		(size 43.18 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9eb32eec-6922-4141-9fb5-260ba7c3be63")
+		(property "Sheetname" "Sheet1"
+			(at 215.9 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sheet1.kicad_sch"
+			(at 215.9 69.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "nSelDig[3..0]" input
+			(at 215.9 43.18 180)
+			(uuid "df2246ea-6bf4-4a2c-9942-fde4c501a01c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Reset_Led" input
+			(at 215.9 50.8 180)
+			(uuid "677224a8-71aa-4269-aede-83caca792c1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SelSeg[7..0]" input
+			(at 215.9 60.96 180)
+			(uuid "dc0d8add-816f-4555-b4a4-96cb6a26a950")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "7Seg_Ext"
+				(path "/0a1419a8-d94b-473e-9651-705e77135dd4"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 25.4)
+		(size 68.58 77.47)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bcefccdb-d62a-405b-992b-18ec20d3a9da")
+		(property "Sheetname" "Connectors"
+			(at 116.84 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 116.84 103.4546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LedButton[3..0]" output
+			(at 185.42 95.25 0)
+			(uuid "7bad8093-90ea-4ec9-99a6-396598642d50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nButton[3..0]" input
+			(at 185.42 83.82 0)
+			(uuid "686527db-2f37-48a8-957f-53b4178c26e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nJoyStickC" input
+			(at 116.84 80.01 180)
+			(uuid "c7282dd4-02ca-4d83-8f4c-31302946bcea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nJoyStickE" input
+			(at 116.84 85.09 180)
+			(uuid "c439daf9-690f-4be1-ad7a-7fe349591d23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nJoyStickN" input
+			(at 116.84 90.17 180)
+			(uuid "6aab16e5-cb1e-46c6-ae9c-3e5acf2aa5fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nJoyStickS" input
+			(at 116.84 96.52 180)
+			(uuid "9198b0b0-ec78-4f02-b4f7-d6fe7b5c3611")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nJoyStickW" input
+			(at 116.84 73.66 180)
+			(uuid "96c5078d-7b94-4417-bf54-35e65a75166e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nSelDig[3..0]" output
+			(at 185.42 43.18 0)
+			(uuid "abdc301e-1627-4f26-afc2-291bd824dce4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Reset_Led" output
+			(at 185.42 50.8 0)
+			(uuid "49565488-002a-4214-8b88-f35725b56fc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Sw_Led[7..0]" bidirectional
+			(at 116.84 38.1 180)
+			(uuid "8b907fb9-8e31-40fa-bd55-71bca108c855")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SelSeg[7..0]" output
+			(at 185.42 62.23 0)
+			(uuid "c66decee-4c23-4f8c-aa4a-a3c299466cfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "7Seg_Ext"
+				(path "/0a1419a8-d94b-473e-9651-705e77135dd4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
